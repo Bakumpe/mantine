@@ -81,10 +81,28 @@ form button{
   font-size: 20px;
 }
 
+.myList{
+  list-style-type: decimal;
+  list-style-position: inside;
+  background: linear-gradient(#23EDAA, #45ADAA);
+}
+.myList li, .myCompleteList li{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border-bottom: 2px solid #ebf1ef;
+}
+.myList li button, .myCompleteList button{
+ margin: 10px;
+}
 
 
-
-
+.myCompleteList{
+  list-style-type: decimal;
+  list-style-position: inside;
+  background: linear-gradient(#ed7023, #ad4577);
+  color: rgb(180, 216, 216);
+}
 
 
 
