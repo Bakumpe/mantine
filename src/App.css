@@ -1,0 +1,99 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    rgba(225, 227, 229, 0.7),
+    rgb(126, 122, 154)
+  );
+  color: rgb(98, 70, 70);
+}
+.header button{
+  height: 40px;
+  background-color: rgb(91, 77, 60);
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  color: rgb(156, 211, 211);
+}
+
+.header button:hover{
+  background: rgba(62, 60, 154, 0.6);
+  cursor: pointer;
+}
+
+ul{
+  padding: 10px;
+  list-style-type: decimal;
+  padding: 20px;
+}
+ul li{
+  padding: 10px;
+}
+ul li a{
+  font-size: 25px;
+  color: rgb(81, 71, 71);
+  text-decoration: none;
+}
+.myForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+form{
+  margin: 10px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  background: linear-gradient(
+    rgba(251, 252, 253, 0.4),
+    rgba(170, 181, 193, 0.4),
+    rgba(225, 227, 229, 0.6),
+    rgba(225, 227, 229, 0.7),
+    rgb(126, 122, 154)
+  );
+  color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px rgba(38, 50, 63, 0.4);
+}
+form label{
+  font-size: 25px;
+  color: rgb(78, 69, 69);
+}
+form input{
+  width: 500px;
+  padding: 10px;
+  font-size: 20px;
+ 
+  color: rgb(99, 69, 69);
+  border: none;
+  border-radius: 10px;
+}
+form button{
+  margin: 20px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden{
+  display: none;
+}
