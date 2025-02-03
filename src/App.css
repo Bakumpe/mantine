@@ -35,6 +35,39 @@ ul li a{
   color: rgb(81, 71, 71);
   text-decoration: none;
 }
+.useRef{
+  background-color: rgba(168, 142, 142, 0.6);
+}
+.useRef h1{
+  text-align: center;
+}
+
+.toDo{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  align-items: center;
+  
+}
+.toDo input{
+  padding: 20px;
+  width: 60%;
+  border: none;
+  background: rgb(226, 228, 230);
+  color: #072219;
+  font-size: 20px;
+}
+.toDo button{
+  width: 15%;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  color: #072219;
+  font-size: 20px;
+  cursor: pointer;
+}
 .myForm{
   display: flex;
   flex-direction: column;
@@ -89,11 +122,17 @@ form button{
 .myList li, .myCompleteList li{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   cursor: pointer;
   border-bottom: 2px solid #ebf1ef;
+  font-size: 25px;
 }
 .myList li button, .myCompleteList button{
  margin: 10px;
+ padding: 10px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer ;
 }
 
 
@@ -103,8 +142,6 @@ form button{
   background: linear-gradient(#ed7023, #ad4577);
   color: rgb(180, 216, 216);
 }
-
-
 
 
 
