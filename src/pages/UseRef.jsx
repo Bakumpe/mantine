@@ -10,7 +10,7 @@ function UseRef() {
   const handleAddTask = () => {
     if (newTask.trim() !== "") {
       setTasks([...tasks, { text: newTask, completed: false }]);
-      setNewTask("");
+      setNewTask(""); 
     }
   };
 
